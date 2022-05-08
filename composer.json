@@ -1,0 +1,23 @@
+{
+    "name": "francerz/jwt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Francerz"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Francerz\\JWT\\": "src"
+        }
+    },
+    "require": {
+        "francerz/http-utils": "^0.2.46",
+        "phpunit/phpunit": "^8.5"
+    }
+}
